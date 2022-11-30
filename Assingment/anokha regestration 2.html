@@ -1,0 +1,106 @@
+!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Anokha registration</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+<script src="sample-registration-form-validation.js"></script>
+</head>
+</style>
+ <body style=background-image:url('https://storage.pixteller.com/designs/designs-images/2019-03-27/05/love-and-passion-background-backgrounds-romantic-1-5c9b9945866ba.png')
+</body>
+<center style="font-size:60px">
+<h1><center> ANOKHA</h1></center>
+
+<body onload="document.registration.userid.focus();">
+<center><h1>Registration Form</h1></center>
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="username">Name:</label></li>
+<li><input type="text" name="username" size="50" /></li>
+<li><label for="userid">Roll no:</label></li>
+<li><input type="text" name="rollno" size="12" /></li>
+<li><label for="address">Address:</label></li>
+<li><input type="text" name="address" size="50" /></li>
+<li><label for="country">Campus:</label></li>
+<li><select name="country">
+<option selected="" value="Default">(Please select your campus)</option>
+<option value="AF">Amruthpuri</option>
+<option value="AL">Coimbatore</option>
+<option value="DZ">chennai</option>
+<option value="AS">Banglore</option>
+<option value="AD">Amaravati</option>
+</select></li>
+
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" size="50" /></li>
+<li><label id="gender">Sex:</label></li>
+<input type="radio" name="msex" value="Male" /><span>Male</span></li>
+<input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+<li><label>Language:</label></li>
+<input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+<input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>
+
+<br>
+<br>
+<form action="/action_page.php">
+            <label for="cars">STREAM: </label>
+            <select name="cars" id="cars">
+              <option value="volvo">CSE</option>
+              <option value="saab">CSE-AI</option>
+              <option value="opel">CSE-CYS</option>
+              <option value="audi">ELC</option>
+              <option value="volvo">EEE</option>
+              <option value="volvo">MEL</option>
+              <option value="volvo">CCE</option>
+            </select>
+            <br><br>
+      </div>
+      <p>What is your year of Study?</p>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">1st YEAR</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">2nd YEAR</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">3rd YEAR</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">4th YEAR</label><br><br>
+      <p>Please select the department you would like to join under?:</p>
+      <br>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">Research Department</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">Public Speaking</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">Photography & Videography</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">Technical Department</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">Event Management</label>
+	  
+      <br><br>
+	      <label for="birthday">Choose Event Date:</label>
+      <br>
+	  <br/>
+  <input type="date" id="Event" name="Choose your date"> 
+  <br>
+  <p><label for="w3review">Feedback</label></p>
+  <textarea id="w3review" name="w3review" rows="4" cols="50">You can give suggestions.</textarea>
+  <p>Choose File button to upload a file:</p>
+
+  <form action="/action_page.php">
+    <input type="file" id="myFile" name="filename"><br>
+         <div class="input-box button">
+        <br>
+		<center><h3><a href="file:///C:/Users/ganesh/Desktop/assessment%2066.html">register now</a></h3></center>
+      </div>
+      <br>
+      <div class="text">
+        <center><h3>Already have an account? <a href="#">Login now</a></h3></center>
+      </div>
+    </form>
+</ul>
+</form>
+</body>
+</html>
